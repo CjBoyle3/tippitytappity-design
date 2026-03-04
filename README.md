@@ -27,5 +27,6 @@ classDiagram
         + bestTime: string
         + averageTime: string
         + averageAccuracy: string
-        + averageWPM: string
+        + averageWPM: float
+  }
 ```
