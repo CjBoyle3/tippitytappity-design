@@ -22,4 +22,10 @@ classDiagram
         + strength: (character: char, accuracy: float) 
         + weakness (character: char, accuracy: float) 
   }
+  UserStats <|-- history
+  class History{
+        + bestTime: string
+        + averageTime: string
+        + averageAccuracy: string
+        + averageWPM: int
 ```
