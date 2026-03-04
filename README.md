@@ -22,7 +22,7 @@ classDiagram
         + strength: (character: char, accuracy: float) 
         + weakness (character: char, accuracy: float) 
   }
-  UserStats <|-- history
+  UserStats <|-- History
   class History{
         + bestTime: string
         + averageTime: string
