@@ -27,5 +27,5 @@ classDiagram
         + bestTime: string
         + averageTime: string
         + averageAccuracy: string
-        + averageWPM: int
+        + averageWPM: string
 ```
